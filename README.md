@@ -160,4 +160,4 @@ You can also use the Kafka UI to view messages in the `test` topic or implement 
 
 This project is open for contributions! Feel free to create issues or submit pull requests to improve the functionality.
 
-## This project was developed under the supervision and instruction of the DataScientest Bootcamp.
+This project was developed under the supervision and instruction of the DataScientest Bootcamp.
