@@ -10,4 +10,3 @@ kafka_consumer = KafkaConsumer(
 
 for message in kafka_consumer:
     print(message.value.decode("utf-8"))
-
