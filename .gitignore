@@ -1,0 +1,60 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Kafka logs and data
+logs/
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+
+# Maven / Gradle specific files
+target/
+build/
+pom.xml.*
+*.lock
+
+# Docker specific
+docker-compose.override.yml
+*.env
+
+# Python specific (if using Python for Kafka scripts)
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+.env
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# JetBrains related
+.idea/
+*.iml
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Other IDE specific files
+.vscode/
+*.sublime-*
+
+# Kafka configs
+config/server.properties
+config/zookeeper.properties
+
+# Kafka data directories
+kafka-logs/
+zookeeper/
+
+# Kafka plugin path
+plugin.path/
+
+# Kafka consumer offset data
+__consumer_offsets
+
+# Kafka topics
+__transaction_state
